@@ -1,0 +1,25 @@
+.cursor {
+  border-radius: 100%;
+  background: #fff;
+  width: 12px;
+  height: 12px;
+  top: 0;
+  left: 0;
+  mix-blend-mode: difference;
+  user-select: none;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.cursorFollower {
+  border-radius: 100%;
+  background: rgba(249, 249, 249, 0.02);
+  width: 36px;
+  height: 36px;
+  top: -12px;
+  left: -12px;
+  border: 1px solid rgba(249, 249, 249, 0.2);
+  user-select: none;
+  pointer-events: none;
+  z-index: 100;
+}
